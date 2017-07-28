@@ -8,6 +8,6 @@ get "/maker/:nombre" do
   end
 end
 
-get "/maker/" do
+get "/makers/" do
     "<h1>Hola desconocido!</h1>"
 end
