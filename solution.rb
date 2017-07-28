@@ -7,7 +7,9 @@ get "/maker/:nombre" do
     "<h1>Hola desconocido!</h1>"
   end
 end
-
-get "/makers/" do
-    "<h1>Hola desconocido!</h1>"
+get '/makers'do
+  "<h1>Hola desconocido!<h1>"
+end
+get '/makers/'do
+  "<h1>Hola desconocido!<h1>"
 end
